@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    color: #29191e;
+    background-color: #a28f9d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 30px 16px 30px;
+    background: #f0e9ed;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+.img-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.recipe-content {
+    max-width: 700px;
+    margin: auto;
+    background-color: #f0e9ed;
+    padding: 20px 20px 50px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#recipe-image {
+    width: 100%;
+    border: 2px solid #d1c7cb;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pangolin', Helvetica, sans-serif;
+}
+
+a {
+    color: #771835;
+    text-decoration: none;
+    font-family: 'Pangolin', Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.linkborder:hover {
+    padding-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #d1c7cb;
+    width: fit-content;
+}
+
+ul {
+    list-style-image: url('/src/images/bullet-swirl.png');
+}
+
+.footer ul, .header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 23px;
+}
+
+.git-top {
+    font-size: 14px;
+    list-style: none;
+    text-transform: lowercase;
+}
+
+ol {
+    font-weight: bold;
+}
+
+ol li {
+    margin: 0px 30px 25px 0px;
+}
+
+ol li span {
+    font-weight: normal;
+}
