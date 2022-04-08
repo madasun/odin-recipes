@@ -7,15 +7,15 @@ I'm currently progressing through the "Foundations" of The Odin Project to learn
 
 # Overview
 
-## - beginning -
+### Beginning
 
 The first layout I created using only HTML and CSS. My goal was to make it pleasant to look at despite its simplicity. 
 
 ![game title](/src/images/ghibliRecipesOri.png)
 
 After completing more lessons I returned to the recipe website to add flexbox. There were immediately some changes I knew I could make to improve it. For one, my eyes kept straying to how large I made the header image instead of the real content of the website: the recipes. I also noticed that every popular recipe website I visited showcased the food itself through photos and not just simple links. With these things in mind I tried putting together a plan:
-#
-## - planning -
+
+### Planning
 
 Before making any changes I sketched a few ideas to get a sense for what I wanted. I planned to keep its simple appearance and muted colors, but I wanted the recipes to shine. The first version of the website had an (overly huge) image of the fire demon, Calcifer, as a "polaroid." This was because I wanted it to feel like a photo being shared/looked at and not some image randomly on the page.
 
@@ -23,9 +23,7 @@ I still liked the idea of using polaroids in the reworked layout and decided to 
 
 ![Sketches](/src/images/sketches.png)
 
-#
-
-## - finished -
+### Finished
 
 When I first started adding flexbox I too often found myself copy-pasting pieces until it seemed like it would work. It wasn't conducive to learning how it all fit together though. I revisited the TOP practices, did a lot of Google searches (CSS-tricks guide to flexbox in particular was very helpful!), and spent extra time figuring out how to fit flexbox together through understanding rather than "lucky guessing." It wasn't until after I pushed it to github that I realized it didn't look as good on mobile as I originally thought. 
 
@@ -45,7 +43,7 @@ For this website in the future, I would if I could:
 - make needed adjustments so the site is usable for anyone (as I learn more about accessibility)
 - (For example, is there closed-captioning when needed? The YouTube video I embedded on the Fish Cookies recipe page doesn't have CC available. I think it needs a written transcript instead)
 
-# *Changelog
+# Changelog
 As of 04/07/22:
 - screenshots of [Previous layout](/src/images/ghibliRecipes.png) and [Current layout](/src/images/ghibliRecipes2.png)
 - image header was being cut off on mobile and it now scales depending on size of viewport
