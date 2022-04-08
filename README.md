@@ -7,28 +7,29 @@ I'm currently progressing through the "Foundations" of The Odin Project to learn
 
 # Overview
 
-## (Beginning)
+## - beginning -
 
-This is the first layout I created using only HTML and CSS. Despite it being very simple I wanted it to be pleasant to look at. 
+The first layout I created using only HTML and CSS. My goal was to make it pleasant to look at despite its simplicity. 
 
 ![game title](/src/images/ghibliRecipesOri.png)
 
-After completing more lessons I returned to the recipe website to add flexbox. There were immediately some changes I knew I could make to improve it. For one, my eyes kept straying to how large I made the header image instead of the real content of the website -- the recipes. I also noticed that every popular recipe website I visited showcased the food itself through photos and not just simple links. With these things in mind I tried putting together a plan.
+After completing more lessons I returned to the recipe website to add flexbox. There were immediately some changes I knew I could make to improve it. For one, my eyes kept straying to how large I made the header image instead of the real content of the website: the recipes. I also noticed that every popular recipe website I visited showcased the food itself through photos and not just simple links. With these things in mind I tried putting together a plan:
+#
+## - planning -
 
-## (Planning)
-
-Before changing anything I sketched a few basic ideas to get a sense for what I wanted. I planned to keep it simple looking overall with muted colors. The first version of the website had an (overly huge) image of the fire demon, Calcifer, as a "polaroid." This was because I wanted it to feel like a photo being shared/looked at and not some image randomly on the page.
+Before making any changes I sketched a few ideas to get a sense for what I wanted. I planned to keep its simple appearance and muted colors, but I wanted the recipes to shine. The first version of the website had an (overly huge) image of the fire demon, Calcifer, as a "polaroid." This was because I wanted it to feel like a photo being shared/looked at and not some image randomly on the page.
 
 I still liked the idea of using polaroids in the reworked layout and decided to turn the recipes into the polaroids. They would be like snapshots from the movies the recipes originated from. It could bring focus (and nostalgia) to the recipes themselves, especially if I simplified the header/hero image.
 
 ![Sketches](/src/images/sketches.png)
 
+#
 
-## (Finished)
+## - finished -
 
 When I first started adding flexbox I too often found myself copy-pasting pieces until it seemed like it would work. It wasn't conducive to learning how it all fit together though. I revisited the TOP practices, did a lot of Google searches (CSS-tricks guide to flexbox in particular was very helpful!), and spent extra time figuring out how to fit flexbox together through understanding rather than "lucky guessing." It wasn't until after I pushed it to github that I realized it didn't look as good on mobile as I originally thought. 
 
-This gave me another opportunity to play with the flexboxes to fix it, and even make the footer look less crowded than before, despite all the extra links and an email input box. The changelog shows the before/after of the footer.
+This gave me another opportunity to play with the flexboxes to fix it, and even make the footer look more organized despite all of the extra links. The changelog shows the before/after of the footer.
 
 Overall, I'm satisfied with how this project turned out and the process of making it!
 
@@ -36,7 +37,7 @@ Overall, I'm satisfied with how this project turned out and the process of makin
 
 # Conclusion
 
-The html and css lessons were a great refresher, and I know more about flexbox now than I ever have. However, a big thing I'm taking away from this is putting the time into learning why something does what it does. Copy-pasting snippets might work, but knowing the way it all fits together made the whole process easier and more enjoyable for me in the end. I'm definitely going to hang on to this thought when I get more into Javascript..
+The html and css lessons were a great refresher, and I know more about flexbox now than I ever have. However, a big thing I'm taking away from this is putting the time into learning why something does what it does. Copy-pasting snippets might work, but knowing the way it all fits together made the whole process easier and more enjoyable for me in the end. I'm definitely going to try hanging on to this thought when I get more into Javascript..
 
 For this website in the future, I would if I could:
 - add a hamburger menu for mobile
