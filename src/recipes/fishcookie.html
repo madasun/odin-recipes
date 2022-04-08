@@ -13,51 +13,76 @@
         <link rel="stylesheet" href="../recipes/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div class="header">
-            <ul class="left-links">
-                <li><a href="#" class="linkborder">Home</a></li>
-                <li><a href="#" class="linkborder">About</a></li>
+        <nav class="header">
+            <ul class="nav-item">
                 <li><a href="#" class="linkborder">Recipes</a></li>
+                <li><a href="#" class="linkborder">Videos</a></li>
+                <li><a href="#" class="linkborder">About</a></li>
             </ul>
-            <ul class="right-links">
-                <li><a href="#"><img src="../images/heart.png" width="26"></a></li>
-                <li><a href="#"><img src="../images/search.png" width="25"></a></li>
+            <ul class="nav-item">
+                <li><a href="#"><img src="../images/savedrecipes.png" width="26"></a></li>
+                <li><a href="#"><img src="../images/searchlink.png" width="25"></a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="recipe-content">
-            <img src="../images/fishcookie.png" id="recipe-image" alt="cat eating fish shaped cookies">
-            <h1>Fish Cookies</h1>
-            <p>Recipe from  <a href="https://youtu.be/i-VkbAxNbY4">bonobos25 on Youtube</a>.</p>
-            <p>(20 to 25 fish cookies)</p>
-       
-            <h2>Ingredients</h2>
-            <ul>
-                <li>Butter (40 g)</li>
-                <li>Egg yolk (1)</li>
-                <li>Maple syrup (20 g)</li>
-                <li>Powdered sugar (30 g)</li>
-                <li>Cake flour (120 g)</li>
-                <li>Vanilla oil</li>
-            </ul>
-            
-            <h2>Directions</h2>
-            <p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i-VkbAxNbY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-        </div>
+        <section class="container">
+            <div class="recipe-content">
+                <img src="../images/fishcookie.png" id="recipe-image" alt="">
+                <h1>Fish Cookies</h1>
+                <p>Recipe from  <a href="https://youtu.be/i-VkbAxNbY4">bonobos25 on Youtube</a>.</p>
+                <p>(Makes 20 to 25 fish shaped cookies)</p>
+        
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>Butter (40 g)</li>
+                    <li>Egg yolk (1)</li>
+                    <li>Maple syrup (20 g)</li>
+                    <li>Powdered sugar (30 g)</li>
+                    <li>Cake flour (120 g)</li>
+                    <li>Vanilla oil</li>
+                </ul>
+                
+                <h2>Directions</h2>
+                <p><a href="https://www.youtube.com/watch?v=i-VkbAxNbY4">Watch the directions on YouTube here.</a></p>
+                <div class="container-iframe">
+                    <iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/i-VkbAxNbY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
 
-        <div class="footer">
-            <ul class="left-links">
-                <li><a href="#" class="linkborder">Contact</a></li>
-                <li><a href="#" class="linkborder">Credits</a></li>
-            </ul>
-            <li class="git-top">(recipe project by <a href="https://github.com/madasun" class="git-top">madasun</a>, via <a href="https://www.theodinproject.com/" class="git-top">the odin project</a>.)</li>
-            <ul class="right-links">
-                <li><a href="#" class="linkborder">Privacy</a></li>
-                <li><a href="#" class="linkborder">Terms</a></li>
-            </ul>
-        </div>
+        <section class="footer-main">
+            <div class="footer-nav">
+                <h3 class="footer-title">Explore</h3>
+                <ul>
+                    <a href="#"><li>Recipes</li></a>
+                    <a href="#"><li>Recipe Archives</li></a>
+                    <a href="#"><li>The Shop</li></a>
+                    <a href="https://ghiblicollection.com/"><li>Studio Ghibli</li></a>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">Legal</h3>
+                    <ul>
+                        <a href="#"><li>Privacy Notice</li></a>
+                        <a href="#"><li>Terms of Use</li></a>
+                        <a href="#"><li>Advertise</li></a>
+                        <a href="#"><li>Terms & Conditions</li></a>
+                    </ul>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">Subscribe</h3>
+                <p>Sign up to be notified of new recipes!</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+            <div class="footer-github">
+                <p>(recipe project by <a href="https://github.com/madasun">madasun</a> via <a href="https://www.theodinproject.com/">the odin project</a>)</p>
+            </div>
+        </section>
     </body>
 </html>

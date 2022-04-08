@@ -8,57 +8,82 @@
         <link rel="stylesheet" href="../recipes/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div class="header">
-            <ul class="left-links">
-                    <li><a href="#" class="linkborder">Home</a></li>
-                    <li><a href="#" class="linkborder">About</a></li>
-                    <li><a href="#" class="linkborder">Recipes</a></li>
+        <nav class="header">
+            <ul class="nav-item">
+                <li><a href="#" class="linkborder">Recipes</a></li>
+                <li><a href="#" class="linkborder">Videos</a></li>
+                <li><a href="#" class="linkborder">About</a></li>
             </ul>
-            <ul class="right-links">
-                    <li><a href="#"><img src="../images/heart.png" width="26"></a></li>
-                    <li><a href="#"><img src="../images/search.png" width="25"></a></li>
+            <ul class="nav-item">
+                <li><a href="#"><img src="../images/savedrecipes.png" width="26"></a></li>
+                <li><a href="#"><img src="../images/searchlink.png" width="25"></a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="recipe-content">
-            <img src="../images/ponyoramen.png" id="recipe-image" alt="bowl of ramen"></p>
-            <h1>Lisa's Ramen Recipe</h1>
-            <p>(Serves 2)</p>
+        <section class="container">
+            <div class="recipe-content">
+                <img src="../images/ponyoramen.png" id="recipe-image" alt=""></p>
+                <h1>Lisa's Ramen Recipe</h1>
+                <p>This recipe only needs your favorite packs of ramen and is inspired by the totally
+                    endearing scene in Ponyo when Lisa serves up two bowls of hot ramen topped with Ponyo's favorite
+                    thing ever -- HAM.</p>
+                <p>(Serves 2)</p>
 
-            <h3>Ingredients</h3>
-            <ul>
-                <li>Two packs of your favorite ramen</li>
-                <li>2 slices of ham or canadian bacon</li>
-                <li>Soft boiled eggs</li>
-                <li>Sliced green onion</li>
-            </ul>
-            
-            <b>Instructions</b>
-            <ol>
-                <li><span>First, make the perfect soft boiled egg! Get a pot of water to boil. Gently lower desired amount of eggs
-                    into water. Set timer to boil for 7 minutes to get medium-runny yolk. Boil 9 minutes if you like an almost firm yolk.</span></li>
-                <li><span>While boiling, fill a bowl large enough for the eggs with cold water and ice. When the timer is up, immediately remove
-                    eggs and place into the bowl of ice water to stop the cooking.</span></li>
-                <li><span>Follow instructions on the ramen package and put them into bowls.</span></li>
-                <li><span>Now they can be topped with everything in the picture! Sliced ham, a boiled egg and sliced green onion.</span></li>
-                <li><span>Enjoy while watching the movie. ♥</li>
-            </ol>
-        </div>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>Two packs of your favorite ramen</li>
+                    <li>2 slices of ham or canadian bacon</li>
+                    <li>Soft boiled eggs</li>
+                    <li>Sliced green onion for garnish</li>
+                    <li>Any other toppings you might like</li>
+                </ul>
+                
+                <b>Instructions</b>
+                <ol>
+                    <li><span>First, make the perfect soft boiled egg! Get a pot of water to boil. Gently lower desired amount of eggs
+                        into water. Set timer to boil for 7 minutes to get medium-runny yolk. Boil 9 minutes if you like an almost firm yolk.</span></li>
+                    <li><span>While boiling, fill a bowl large enough for the eggs with cold water and ice. When the timer is up, immediately remove
+                        eggs and place into the bowl of ice water to stop the cooking.</span></li>
+                    <li><span>Follow instructions on the ramen package to cook up your ramen and place them into bowls to serve up.</span></li>
+                    <li><span>Now they can be topped with anything you want! In the movie Lisa uses ham, a boiled egg and sliced green onion.</span></li>
+                </ol>
+            </div>
+        </section>
 
-        <div class="footer">
-            <ul class="left-links">
-                <li><a href="#" class="linkborder">Contact</a></li>
-                <li><a href="#" class="linkborder">Credits</a></li>
-            </ul>
-            <li class="git-top">(recipe project by <a href="https://github.com/madasun" class="git-top">madasun</a>, via <a href="https://www.theodinproject.com/" class="git-top">the odin project</a>.)</li>
-            <ul class="right-links">
-                <li><a href="#" class="linkborder">Privacy</a></li>
-                <li><a href="#" class="linkborder">Terms</a></li>
-            </ul>
-        </div>
+        <section class="footer-main">
+            <div class="footer-nav">
+                <h3 class="footer-title">Explore</h3>
+                <ul>
+                    <a href="#"><li>Recipes</li></a>
+                    <a href="#"><li>Recipe Archives</li></a>
+                    <a href="#"><li>The Shop</li></a>
+                    <a href="https://ghiblicollection.com/"><li>Studio Ghibli</li></a>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">Legal</h3>
+                    <ul>
+                        <a href="#"><li>Privacy Notice</li></a>
+                        <a href="#"><li>Terms of Use</li></a>
+                        <a href="#"><li>Advertise</li></a>
+                        <a href="#"><li>Terms & Conditions</li></a>
+                    </ul>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">Subscribe</h3>
+                <p>Sign up to be notified of new recipes!</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+            <div class="footer-github">
+                <p>(recipe project by <a href="https://github.com/madasun">madasun</a> via <a href="https://www.theodinproject.com/">the odin project</a>)</p>
+            </div>
+        </section>
     </body>
 </html>
 

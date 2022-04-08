@@ -12,86 +12,107 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <div class="header">
-            <ul class="left-links">
-                <li><a href="#" class="linkborder">Home</a></li>
-                <li><a href="#" class="linkborder">About</a></li>
+        <nav class="header">
+            <ul class="nav-item">
                 <li><a href="#" class="linkborder">Recipes</a></li>
+                <li><a href="#" class="linkborder">Videos</a></li>
+                <li><a href="#" class="linkborder">About</a></li>
             </ul>
-            <ul class="right-links">
-                <li><a href="#"><img src="./images/heart.png" width="26"></a></li>
-                <li><a href="#"><img src="./images/search.png" width="25"></a></li>
+            <ul class="nav-item">
+                <li><a href="#"><img src="./images/savedrecipes.png" width="26"></a></li>
+                <li><a href="#"><img src="./images/searchlink.png" width="25"></a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="img-header"><img src="./images/recipesheader.png" width="450px"></div>
-        <div class="recipesdesc">
-            <p>A collection of beautiful food from Studio Ghibli movies and recipes that were 
-                inspired by them. Because let's face it, there's no food that will taste as good as 
-                Studio Ghibli's looks, <i>but we can try</i>.</p>
-        </div>
-     
-        <div class="featured"><b>Featured Recipes</b></div>
-        <div class="recipe-gallery">  
-                          
-            <a href="recipes/kikicake.html" class="polaroid-link">
-                <figure>
-                    <img src="./images/kikicake.png" height="100" alt="kiki's cake">
-                    <figcaption>Kiki's Chocolate Cake</figcaption>
-                </figure>
-            </a>
-
-            <a href="recipes/kikipie.html" class="polaroid-link">
-                <figure>
-                    <img src="./images/kikipie.png" height="100" alt="kiki's cake">
-                    <figcaption>Herring & Pumpkin Pie</figcaption>
-                </figure>
-            </a>
-
-            <a href="recipes/ponyoramen.html" class="polaroid-link">
-                <figure>
-                    <img src="./images/ponyoramen.png" height="100" alt="kiki's cake">
-                    <figcaption>Lisa's Ramen</figcaption>
-                </figure>
-            </a>
-           
-            <a href="recipes/spiritedpeach.html" class="polaroid-link">
-                <figure>
-                    <img src="./images/spiritedpeach.png" height="100" alt="kiki's cake">
-                    <figcaption>Peach Custard Buns</figcaption>
-                </figure>
-            </a>
-
-            <a href="recipes/fishcookie.html" class="polaroid-link">
-                <figure>
-                    <img src="./images/fishcookie.png" height="100" alt="howl's breakfast">
-                    <figcaption>Fish Cookies</figcaption>
-                </figure>
-            </a>
-
-            <a href="recipes/howlbacon.html" class="polaroid-link">
-                <figure>
-                    <img src="./images/howlbacon.png" height="100" alt="howl's breakfast">
-                    <figcaption>Howl's Breakfast</figcaption>
-                </figure>
-            </a>
-        </div>  
+        <section class="container">
+            <div class="img-header"><img src="./images/recipesheader.png" id="img-header"></div>
+            <div class="recipesdesc">
+                <p>A collection of beautiful food from Studio Ghibli movies and recipes that were 
+                    inspired by them. Because let's face it, there's no food that will taste as good as 
+                    Studio Ghibli's looks, <i>but we can try</i>.</p>
+            </div>
         
-        <div class="footer">
-            <ul class="left-links">
-                <li><a href="#" class="linkborder">Contact</a></li>
-                <li><a href="#" class="linkborder">Credits</a></li>
-            </ul>
-            <li class="git-top">(recipe project by <a href="https://github.com/madasun" class="git-top">madasun</a>, 
-                via <a href="https://www.theodinproject.com/" class="git-top">the odin project</a>.)</li>
-            <ul class="right-links">
-                <li><a href="#" class="linkborder">Privacy</a></li>
-                <li><a href="#" class="linkborder">Terms</a></li>
-            </ul>
-        </div>
+            <div class="featured"><b>Featured Recipes</b></div>
+            <div class="recipe-gallery">  
+                            
+                <a href="recipes/kikicake.html" class="polaroid-link">
+                    <figure>
+                        <img src="./images/kikicake.png" height="100" alt="">
+                        <figcaption>Kiki's Chocolate Cake</figcaption>
+                    </figure>
+                </a>
+
+                <a href="recipes/kikipie.html" class="polaroid-link">
+                    <figure>
+                        <img src="./images/kikipie.png" height="100" alt="">
+                        <figcaption>Herring & Pumpkin Pie</figcaption>
+                    </figure>
+                </a>
+
+                <a href="recipes/ponyoramen.html" class="polaroid-link">
+                    <figure>
+                        <img src="./images/ponyoramen.png" height="100" alt="">
+                        <figcaption>Lisa's Ramen</figcaption>
+                    </figure>
+                </a>
+            
+                <a href="recipes/spiritedpeach.html" class="polaroid-link">
+                    <figure>
+                        <img src="./images/spiritedpeach.png" height="100" alt="">
+                        <figcaption>Peach Custard Buns</figcaption>
+                    </figure>
+                </a>
+
+                <a href="recipes/fishcookie.html" class="polaroid-link">
+                    <figure>
+                        <img src="./images/fishcookie.png" height="100" alt="">
+                        <figcaption>Fish Cookies</figcaption>
+                    </figure>
+                </a>
+
+                <a href="recipes/howlbacon.html" class="polaroid-link">
+                    <figure>
+                        <img src="./images/howlbacon.png" height="100" alt="">
+                        <figcaption>Howl's Breakfast</figcaption>
+                    </figure>
+                </a>
+            </div>  
+        </section>
+
+        <section class="footer-main">
+            <div class="footer-nav">
+                <h3 class="footer-title">Explore</h3>
+                <ul>
+                    <a href="#"><li>Recipes</li></a>
+                    <a href="#"><li>Recipe Archives</li></a>
+                    <a href="#"><li>The Shop</li></a>
+                    <a href="https://ghiblicollection.com/"><li>Studio Ghibli</li></a>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">Legal</h3>
+                <ul>
+                    <a href="#"><li>Privacy Notice</li></a>
+                    <a href="#"><li>Terms of Use</li></a>
+                    <a href="#"><li>Advertise</li></a>
+                    <a href="#"><li>Terms & Conditions</li></a>
+                </ul>
+            </div>
+            <div class="footer-nav">
+                <h3 class="footer-title">Subscribe</h3>
+                <p>Sign up to be notified of new recipes!</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+            <div class="footer-github">
+                <p>(recipe project by <a href="https://github.com/madasun">madasun</a> via <a href="https://www.theodinproject.com/">the odin project</a>)</p>
+            </div>
+        </section>
     </body>
 </html>
