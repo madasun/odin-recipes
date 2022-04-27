@@ -57,6 +57,10 @@ As of 04/07/22:
 
 ![Footer](/src/images/footers_ba.png)
 
+As of 04/27/22
+- added a simple hamburger menu for mobile sizes (main page only)
+- changed the color palette to be more muted
+- updated the font for links to make them easier to read, especially for the navigation
 
 # Credit & Resources
 - [The Odin Project](https://www.theodinproject.com)

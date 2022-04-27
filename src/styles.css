@@ -3,8 +3,8 @@
 }
 
 body {
-    color: #29191e;
-    background-color: #a28f9d;
+    color: #20120e;
+    background-color: #e4d8d1;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.6;
@@ -21,10 +21,53 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
-    background: #f0e9ed;
+    padding: 20px 30px;
+    background: #F7F4F3;
     text-transform: uppercase;
     letter-spacing: .05em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 23px;
+}
+
+.hamburger {
+    border: 0;
+    padding-top: 2px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.nav-bar.show {
+    display: block;
+}
+
+@media only screen and (min-width: 500px) {
+    .hamburger {
+        display: none;
+    }   
+   
+    .nav-bar {
+       display: flex;
+    }
+}
+
+.hamburger {
+    width: 30px;
+    margin-top: 0px;
 }
 
 .footer-main {
@@ -33,7 +76,7 @@ body {
     padding: 40px 10px 20px 10px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #f0e9ed;
+    background-color: #f5ebe5;
     gap: 25px;
 }
 
@@ -43,7 +86,6 @@ body {
 
 .footer-nav {
     min-width: 150px;
-    background-color: #f0e9ed;
 }
 
 .footer-title {
@@ -51,7 +93,7 @@ body {
     font-size: 16px;
     color: #3a3a3a;
     line-height: 28px;
-    border-bottom: 2px solid #a28f9d;
+    border-bottom: 2px solid #7D4B4B;
     padding-bottom: 7px;
     margin: 1px;
 }
@@ -77,7 +119,7 @@ input[type="email"] {
 
 input[type="submit"] {
     font-family: 'Roboto', sans-serif;
-    background-color: #7b394d;
+    background-color: #7D4B4B;
     color: #fff;
     border: 0;
     padding: 10px 8px;
@@ -89,6 +131,9 @@ input[type="submit"] {
     display: flex;
     justify-content: center;
     padding: 10px;
+    border-radius: 3px;
+    padding-bottom: 35px;
+    padding-top: 35px;
 }
 
 #img-header {
@@ -99,18 +144,20 @@ input[type="submit"] {
     text-align: center;
     width: 820px;
     margin: auto;
+    padding-top: 30px;
 }
 
 a {
-    color: #7b394d;
+    color: #7D4B4B;
     text-decoration: none;
-    font-family: 'Amatic SC', Helvetica, sans-serif;
-    font-size: 35px;
-    font-weight: 700;
+    font-family: 'Overlock', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 a figure {
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer-main a {
@@ -119,24 +166,16 @@ a figure {
 }
 
 .linkborder:hover {
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #d1c7cb;
+    border-bottom-width: 3px;
+    border-bottom-color: #e4d8d1;
     width: fit-content;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 23px;
 }
 
 .featured {
@@ -153,7 +192,7 @@ nav ul {
     margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 figure {
@@ -161,9 +200,10 @@ figure {
     background-color: #fbfaf9;
     margin: 20px 0;
     outline: 1px solid hsla(0, 0%, 50%, .1);
-    box-shadow: 0px 8px 6px -6px #767676;
+    box-shadow: 5px 8px 10px -9px #9c837b;
     padding: 12px;
     flex-shrink: 0;
+    border-radius: 3px;
 }
 
 figure figcaption {
