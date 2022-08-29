@@ -11,7 +11,7 @@ I'm currently progressing through the "Foundations" of The Odin Project to learn
 
 The first layout I created using only HTML and CSS. My goal was to make it pleasant to look at despite its simplicity. 
 
-![game title](/src/images/ghibliRecipesOri.png)
+![game title](src/images/ghibliRecipesOri.png)
 
 After completing more lessons I returned to the recipe website to add flexbox. There were immediately some changes I knew I could make to improve it. For one, my eyes kept straying to how large I made the header image instead of the real content of the website: the recipes. I also noticed that every popular recipe website I visited showcased the food itself through photos and not just simple links. With these things in mind I tried putting together a plan:
 
@@ -21,7 +21,7 @@ Before making any changes I sketched a few ideas to get a sense for what I wante
 
 I still liked the idea of using polaroids in the reworked layout and decided to turn the recipes into the polaroids. They would be like snapshots from the movies the recipes originated from. It could bring focus (and nostalgia) to the recipes themselves, especially if I simplified the header/hero image.
 
-![Sketches](/src/images/sketches.png)
+![Sketches](src/images/sketches.png)
 
 ### Finished
 
@@ -31,7 +31,7 @@ This gave me another opportunity to play with the flexboxes to fix it, and even 
 
 Overall, I'm satisfied with how this project turned out and the process of making it!
 
-![Fin](/src/images/ghibliRecipes600.png)
+![Fin](src/images/ghibliRecipes600.png)
 
 # Conclusion
 
@@ -55,7 +55,7 @@ As of 04/07/22:
 2. add extra information and link navigation
 3. organize the content of footer and give them visual hierarchy
 
-![Footer](/src/images/footers_ba.png)
+![Footer](src/images/footers_ba.png)
 
 As of 04/27/22
 - added a simple hamburger menu for mobile sizes (main page only)
